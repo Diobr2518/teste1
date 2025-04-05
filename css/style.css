@@ -1,0 +1,71 @@
+body {
+  background-image: url(site\ inicial.webp);
+  background-position:center ;
+  background-size: cover;
+  background-repeat: no-repeat;
+    color: red;
+    font-family: "Nosifer", sans-serif;
+    text-align: center;
+    text-shadow: 3px 3px 10px black;
+    overflow-y: auto;
+  }
+  h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 20vh;
+    font-family: "Nosifer", sans-serif;
+    text-shadow: 3px 3px 10px black;
+  }
+  #Entrar {
+    border: 2px solid red;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: red;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#Entrar:hover {
+    background-color: red;
+    color: black;
+    box-shadow: 0px 0px 15px red; /* Efeito de brilho */
+    transform: scale(1.2);
+}
+
+  
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .titulo{
+    font-size: xx-large;
+  }
+  .nosifer-regular {
+    font-family: "Nosifer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .topicos {
+    border: 10px;
+    padding: 15px;
+    margin: 10px;
+
+  }
+  .topicos img{
+    height: 300px;
+    width: 250px;
+  
+
+  }
+  nav {
+    background-color: rgba(29, 28, 28, 0.39);
+    padding: 10px;
+}
+.meio{
+  text-align: center;
+  height: auto;
+}
